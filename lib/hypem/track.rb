@@ -6,16 +6,15 @@ module Hypem
 
     convert_keys(
       mediaid: :media_id,
-      dateposted: :dated_posted,
       siteid: :site_id,
       posturl: :post_url,
       posturl_first: :post_url_first,
       postid: :post_id,
       postid_first: :post_id_first,
       dateposted_first: :date_posted_first,
+      dateposted: :date_posted,
       siteid_first: :site_id_first,
       sitename: :site_name,
-      dateposted: :date_posted,
       sitename_first: :site_name_first
     )
 
